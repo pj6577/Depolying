@@ -1,4 +1,12 @@
 body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.task-form {
+  margin-top: 1rem;
+}
+body {
   font-family: sans-serif;
   background-color: #315481;
   background-image: linear-gradient(to bottom, #315481, #918e82 100%);
@@ -126,6 +134,7 @@ header {
   justify-self: flex-end;
   background-color: #ff3046;
 }
+
 .filter {
   display: flex;
   justify-content: center;
@@ -134,7 +143,6 @@ header {
 .filter > button {
   background-color: #62807e;
 }
-
 .login-form {
   display: flex;
   flex-direction: column;
@@ -179,21 +187,6 @@ header {
 
   margin: 8px 16px 0;
   font-weight: bold;
-}
-
-.github-btn {
-  border: 1px solid #e1e5f0;
-  background-color: #fff;
-  width: 245px;
-  margin: 0 auto 16px;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.github-btn > div {
-  margin-left: 4px;
 }
 
 .loading {

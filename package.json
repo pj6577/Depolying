@@ -1,5 +1,5 @@
 {
-  "name": "simple-todos-react",
+  "name": "simple-todos-blaze",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -8,20 +8,16 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.19.4",
+    "@babel/runtime": "^7.17.9",
     "bcrypt": "^5.1.0",
-    "meteor-node-stubs": "^1.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "jquery": "^3.6.0",
+    "meteor-node-stubs": "^1.2.1"
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.jsx",
+      "client": "client/main.js",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6"
   }
 }
